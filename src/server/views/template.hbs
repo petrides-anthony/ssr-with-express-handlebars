@@ -1,0 +1,14 @@
+<html lang="en">
+<head>
+    <title>SSR Example 1</title>
+</head>
+
+<body>
+    <div id="root">{{{render}}}</div>
+    <script>
+        window.__STATE__ = {{{state}}};
+    </script>
+    <script src='/public/{{{pageType}}}.js'></script>
+</body>
+
+</html>
